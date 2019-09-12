@@ -1,0 +1,8 @@
+# Install
+# $ pip install save
+
+# Basic usage
+from save import save
+
+data = 'Hey there'
+save(data, 'file.txt')
