@@ -7,8 +7,8 @@ from facebook_business.adobjects.adaccount import AdAccount
 
 my_app_id = '1302824299894917'
 my_app_secret = 'de61215fbf16df9eb522f9244e770f11'
-my_access_token = 'your-access-token'
+my_access_token = 'wB1Dw26KJoJVag5DpmNTIGJKsCQ'
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
-my_account = AdAccount('act_{your-adaccount-id}')
+my_account = AdAccount('act_{1690817351}')
 campaigns = my_account.get_campaigns()
 print(campaigns)
