@@ -9,7 +9,7 @@ san = []
    # else:
        # for indeks in range(len(san)):
       #      print "[%d] %s" % (indeks, san[indeks])
-            show_menu ()
+           # show_menu ()
 
 
 # fungsi untuk menambah data
