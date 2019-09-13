@@ -1,41 +1,3 @@
-# Variabel global untuk menyimpan data #san
-san = []
-
-
-# fungsi untuk menampilkan #san
-# def show_data():
-#   if len(san) <= 0:
- #       print "BELUM ADA DATA"
-   # else:
-       # for indeks in range(len(san)):
-      #      print "[%d] %s" % (indeks, san[indeks])
-           # show_menu ()
-
-
-# fungsi untuk menambah data
-def insert_data():
-    buku_baru = raw_input("Akun San: ")
-    san.append(san_baru)
-
-# fungsi untuk edit data
-def edit_data():
-    show_data()
-    indeks = input("Inputkan ID san: ")
-    if(indeks > len(san)):
-        print "ID salah"
-    else:
-        judul_baru = raw_input("Judul baru: ")
-        san[indeks] = judul_baru
-
-# fungsi untuk menhapus data
-def delete_data():
-    show_data()
-    indeks = input("Inputkan ID buku: ")
-    if(indeks > len(san)):
-        print "ID salah"
-    else:
-        san.remove(san[indeks])
-
 # fungsi untuk menampilkan menu
 def show_menu():
     print "\n"
@@ -61,6 +23,15 @@ def show_menu():
         exit()
     else:
         print "Salah pilih!"
+
+
+
+
+
+
+
+
+
 
 
 if __name__ == "__main__":
