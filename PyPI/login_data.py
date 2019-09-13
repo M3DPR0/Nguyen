@@ -31,6 +31,16 @@ RE = "\033[0m"
 
 
 
+def login():
+	print("%s\n\n* login your account facebook first *\n"%(W))
+	email = input("%s[~]  %sEmail : "%(P,W))
+	pasw = getpass("%s[~] %sPasss : "%(P,W))
+	get(email,pasw)
+	
+	
+	
+	
+	
 def get(email,pasw):
 	print("%s[*]%s membuat kode masuk ..."%(P,W))
 	b = open("cookie/token.log","w")
