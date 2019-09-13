@@ -3,12 +3,12 @@ san = []
 
 
 # fungsi untuk menampilkan #san
-def show_data():
-    if len(san) <= 0:
-        print "BELUM ADA DATA"
-    else:
-        for indeks in range(len(san)):
-            print "[%d] %s" % (indeks, san[indeks])
+# def show_data():
+#   if len(san) <= 0:
+ #       print "BELUM ADA DATA"
+   # else:
+       # for indeks in range(len(san)):
+      #      print "[%d] %s" % (indeks, san[indeks])
             show_menu ()
 
 
