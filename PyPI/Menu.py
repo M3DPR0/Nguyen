@@ -1,3 +1,5 @@
+# Wajib dijalankan menggunakan bahasa Python2
+
 # fungsi untuk menampilkan menu
 def show_menu():
     print "\n"
