@@ -13,8 +13,8 @@ s = requests.Session()
 url = "https://graph.facebook.com/{}"
 api="https://api.facebook.com/{}"
 
-target = []
-found = []
+target     = []
+found      = []
 checkpoint = []
 
 W  = "\033[1;97m"
@@ -30,18 +30,19 @@ RM = "\033[3;91m"
 RE = "\033[0m"
 
 
+#=================FORM LOGIN
 
 def login():
 	print("%s\n\n* login your account facebook first *\n"%(W))
 	email = input("%s[~]  %sEmail : "%(P,W))
 	pasw = getpass("%s[~] %sPasss : "%(P,W))
-	get(email,pasw)
 	
 	
 	
 	
-	
-def get(email,pasw):
+	get(email,pasw)	
+#=================FORM TOKEN
+def     get(email,pasw):
 	print("%s[*]%s membuat kode masuk ..."%(P,W))
 	b = open("cookie/token.log","w")
 	try:
