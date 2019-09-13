@@ -9,6 +9,7 @@ def show_data():
     else:
         for indeks in range(len(san)):
             print "[%d] %s" % (indeks, san[indeks])
+            show_menu ()
 
 
 # fungsi untuk menambah data
