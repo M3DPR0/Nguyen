@@ -220,7 +220,6 @@ def login():
 	us = inputD('[?] Email/HP')
 	pa = inputD('[?] Kata Sandi')
 	cetak('!h[*] Sedang Login....')
-	buka('https://m.facebook.com/')
 	br.select_form(nr=0)
 	br.form['email']=us
 	br.form['pass']=pa
