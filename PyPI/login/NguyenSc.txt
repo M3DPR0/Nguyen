@@ -1,2 +1,6 @@
 ### 1673270856 | Dina12345
 ### 100029684979805 | sayang
+[3] found >                                                ### 100007255234230 | sayang                               ### 100027373208005 | sayang
+### 100029003045356 | sayang
+
+[+] file saved: result/found.txt
