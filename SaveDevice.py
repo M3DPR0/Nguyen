@@ -308,7 +308,6 @@ def menu():
 	elif i == 3:
 		keluar()
 bacaData()
-install_browser()
 menu()
 #
 #
