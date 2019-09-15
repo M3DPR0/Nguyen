@@ -2,14 +2,14 @@
 
 # fungsi untuk menampilkan menu
 def show_menu():
-    print "\n"
+    print " "
     print "----------- MENU ----------"
     print "[1] Login"
     print "[2] About"
     print "[3] Exit"
     
     menu = input("PILIH MENU> ")
-    print "\n"
+    print " "
 
     if menu == 1:
         login_data()
